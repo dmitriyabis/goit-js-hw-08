@@ -68,7 +68,7 @@ const imagesList = document.querySelector(".gallery");
 function imageTemplate(image) {
   return `
     <li class="gallery-item">
-      <a class="gallery-link" href="${image.preview}">
+      <a class="gallery-link" href="${image.original}">
         <img
           class="gallery-image"
           src='${image.preview}'
